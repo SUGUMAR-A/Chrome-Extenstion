@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 600px;
+    font-family: fantasy;
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.container h1{
+    font-family: 'Courier New', Courier, monospace;
+    color:gray;
+    padding-bottom: 4px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.container input{
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 2px solid lightgreen;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.container input:focus{
+    color: green;
+    
+    
+}
+
+.container .btn{
+    display: flex;
+    justify-content: space-around;
+}
+.container .btn button{
+    width: 100px;
+    padding: 10px ;
+    margin: 10px 20px;
+    border: none;
+    background-color: lightgreen;
+    color: green;
+    border-radius: 10px;
+  
+}
+ .container ul{
+    margin: 30px auto;
+    list-style: none;
+    color: palevioletred;
+ }
+ .container ul li,a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: green;
+ }
